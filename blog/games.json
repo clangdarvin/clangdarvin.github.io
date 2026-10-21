@@ -1,13 +1,26 @@
 [
   {
+    "title": "Greyhill Incident",
+    "date": "2026-10-21",
+    "playtime": "4h 18m",
+    "bullets": [
+      "<b>UI:</b> Dynamic main menu with a side bar layout.",
+      "<b>Mechanics:</b> Stamina meter limits sprint duration; voice-line cues trigger when walking off-path (e.g., \"I shouldn't be going this way\") to soft-gate boundaries.",
+      "<b>Misc:</b> Intro cutscenes blend environmental establishing shots of the location with background NPC dialogue.",
+      "<b>Objective Management:</b> Objectives can be viewed in the pause menu.",
+      "<b>Pain Point:</b> Lack of in-game waypoints; restrictive stamina system; button prompts are too small to read easily."
+    ]
+  },
+  {
     "title": "Home Sweet Home",
     "date": "2026-10-20",
     "playtime": "5h 57m",
     "bullets": [
-      "<b>Controls:</b> Square (flashlight), Triangle (inspect), Circle (crouch), L2 hold (run).",
+      "<b>Controls:</b> Square (flashlight), Triangle (notebook), Circle (crouch), L2 hold (run).",
       "<b>UI:</b> Interactable objects are highlighted visually; dynamic main menu features sound effects when selecting options.",
       "<b>Mechanics:</b> Main ghost uses waypoint pathfinding; enemy detection relies on a cone-shaped vision field (raycasting); distinct audio cue plays when detected by the ghost.",
-      "<b>Misc:</b> First-person model shows no body—just the left hand holding a flashlight.",
+      "<b>Misc:</b> First-person model shows no body—just the left hand holding a flashlight; Small map design that prevents getting lost.",
+      "<b>Objective Management:</b> Briefly displays the current goal at the top-center of the screen before fading out; Pressing Triangle opens a notebook.",
       "<b>Pain Point:</b> Repetitive loop (stealth, obtain item); lack of a reticle."
     ]
   },
