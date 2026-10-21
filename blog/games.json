@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Home Sweet Home",
+    "date": "2026-10-20",
+    "playtime": "5h 57m",
+    "bullets": [
+      "<b>Controls:</b> Square (flashlight), Triangle (inspect), Circle (crouch), L2 hold (run).",
+      "<b>UI:</b> Interactable objects are highlighted visually; dynamic main menu features sound effects when selecting options.",
+      "<b>Mechanics:</b> Main ghost uses waypoint pathfinding; enemy detection relies on a cone-shaped vision field (raycasting); distinct audio cue plays when detected by the ghost.",
+      "<b>Misc:</b> First-person model shows no body—just the left hand holding a flashlight.",
+      "<b>Pain Point:</b> Repetitive loop (stealth, obtain item); lack of a reticle."
+    ]
+  },
+  {
+    "title": "Infliction Extended Cut",
+    "date": "2026-10-19",
+    "playtime": "3h 42m",
+    "bullets": [
+      "<b>UI:</b> Dynamic main menu rendered in real-time; includes a 'read to plain text' feature for readable notes (needs more polish).",
+      "<b>Mechanics:</b> Controller vibration becomes erratic as the ghost gets closer.",
+      "<b>Misc:</b> Unsettling ghost animations (running, crawling, twitching blend).",
+      "<b>Pain Point:</b> No sprint mechanic; overreliance on jumpscares; reticle doesn't indicate which objects are important since all items are interactable."
+    ]
+  }
+]

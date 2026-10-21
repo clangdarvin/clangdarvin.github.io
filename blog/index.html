@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Christian Darvin</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/" class="name-link"><b>Christian Elijah D. Darvin</b></a>
+        |&nbsp&nbsp <a href="/blog">Blog</a>
+        <a href="/media">Media</a>
+        <a
+          href="https://www.linkedin.com/in/christiandarvin/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/clangdarvin/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Github</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <p>High-level technical analysis of games played on my jailbroken PS4.</p>
+
+      <div id="blog-entries">Loading analyses...</div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        fetch("./games.json")
+          .then((response) => response.json())
+          .then((games) => {
+            games.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            const container = document.getElementById("blog-entries");
+            container.innerHTML = "";
+
+            games.forEach((game) => {
+              const formattedDate = new Date(game.date).toLocaleDateString(
+                "en-US",
+                {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                },
+              );
+
+              const details = document.createElement("details");
+
+              const summary = document.createElement("summary");
+
+              const title = document.createElement("b");
+              title.textContent = game.title;
+
+              summary.append(
+                title,
+                document.createTextNode(
+                  ` — ${formattedDate} (${game.playtime})`,
+                ),
+              );
+
+              const ul = document.createElement("ul");
+              game.bullets.forEach((bulletText) => {
+                const li = document.createElement("li");
+                li.innerHTML = bulletText;
+                ul.appendChild(li);
+              });
+
+              details.appendChild(summary);
+              details.appendChild(ul);
+              container.appendChild(details);
+            });
+          })
+          .catch((error) => {
+            console.error("Error loading games:", error);
+            document.getElementById("blog-entries").innerHTML =
+              "<p>Failed to load blog entries.</p>";
+          });
+      });
+    </script>
+  </body>
+</html>

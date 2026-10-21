@@ -4,34 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Christian Darvin</title>
-    <style>
-      body {
-        line-height: 1.5;
-        max-width: 650px;
-        margin: 50px auto;
-        padding: 20px;
-      }
-
-      nav a {
-        margin-right: 10px;
-      }
-
-      .name-link {
-        color: black;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-        text-decoration: none;
-        font-size: 1.5em;
-        font-weight: bold;
-      }
-
-      details > summary {
-        list-style: none;
-      }
-
-      details > summary::-webkit-details-marker {
-        display: none;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -53,55 +26,45 @@
         >
       </nav>
     </header>
+
     <p>
-      I am a C++ programmer who wants to specialise in HPC and to learn Unreal
-      Engine game development. You can reach me at
+      I am a C++ programmer who wants to specialise in Unreal Engine game
+      development. You can reach me at
       <a href="mailto:elidarvin.cs@gmail.com">elidarvin.cs@gmail.com</a>.
     </p>
 
-    <p>Information about me:</p>
+    <!-- Projects Section Moved Up -->
+    <h2>Projects</h2>
     <ul>
-      <li>Live in Imus Cavite, Philippines.</li>
       <li>
-        Studied BSc in Computer Science at De La Salle University – Dasmariñas.
+        <a
+          href="https://github.com/clangdarvin/home-barista"
+          target="_blank"
+          rel="noopener noreferrer"
+          >HomeBarista (UE5)</a
+        >
+        <ul>
+          <li>
+            A three-level PoC game that is inspired by my daily coffee making
+            routine.
+          </li>
+        </ul>
       </li>
-    </ul>
 
-    <p>Philosophy:</p>
-    <ul>
-      <li>
-        I prioritise developer ergonomics and productivity, relying on tools
-        such as Linux, Vim, and JetBrains CLion.
-      </li>
-      <li>
-        I prefer using C++ and Python since they tackle different problems
-        effectively.
-      </li>
-      <li>
-        I value continuous learning, whether through formal education or
-        technology.
-      </li>
-    </ul>
-
-    <p>Projects:</p>
-    <ul>
       <li>
         <a
           href="https://github.com/clangdarvin/cretaceous-wake"
           target="_blank"
           rel="noopener noreferrer"
-          >CretaceousWake</a
+          >CretaceousWake (UE5)</a
         >
+        <ul>
+          <li>
+            A two-level PoC game where players must escape velociraptors, built
+            to demonstrate AI Finite State Machines.
+          </li>
+        </ul>
       </li>
-      <li>
-        <a
-          href="https://github.com/clangdarvin/cornell-timer"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Cornell Timer</a
-        >
-      </li>
-      <li>SecurePin</li>
 
       <li>
         <a
@@ -109,19 +72,50 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          ImuSafe
+          ImuSafe (YOLOv11, AWS, Flutter)
         </a>
         <ul>
           <li>
+            Led the technical development for an undergraduate thesis, including
+            model training and mobile app development.
+          </li>
+          <li>
             <a
-              href="YOUR_RESEARCH_PAPER_LINK"
+              href="https://drive.google.com/file/d/1HZIu-J5aYyTBGRWq0uk_XXgZpx2LJBCe/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Research Paper
+              Abstract Paper
             </a>
           </li>
         </ul>
+      </li>
+    </ul>
+
+    <!-- About Me / Information Section -->
+    <h2>About Me</h2>
+    <ul>
+      <li>Live in Imus, Cavite, Philippines.</li>
+      <li>
+        Studied BSc in Computer Science specialising in Intelligent Systems at
+        De La Salle University – Dasmariñas.
+      </li>
+    </ul>
+
+    <!-- Refined Terminology Section -->
+    <h2>Technical Approach & Tooling</h2>
+    <ul>
+      <li>
+        I prioritise developer ergonomics and productivity, relying on tools
+        such as Linux, Vim, and JetBrains CLion and Rider.
+      </li>
+      <li>
+        I prefer using C++ and Python since they tackle different problems
+        effectively.
+      </li>
+      <li>
+        I jailbroke my PlayStation 4 in order to play and analyse games that I
+        haven't played.
       </li>
     </ul>
   </body>
