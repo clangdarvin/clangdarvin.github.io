@@ -1,5 +1,17 @@
 [
   {
+    "title": "BrokenLore: Don't Watch",
+    "date": "2026-10-22",
+    "playtime": "1h 17m",
+    "bullets": [
+      "<b>UI:</b> Dynamic main menu; fades out from the main menu to the first level; reticle only appears when an object is interactable.",
+      "<b>Mechanics:</b> Phone functions as a flashlight; switches to 8-bit graphics halfway through the game; story features a loop where the player returns to the same location.",
+      "<b>Misc:</b> Small flat; usage of post-processing effects.",
+      "<b>Objective Management:</b> Displays objectives in the bottom-left corner of the screen, which then fade out.",
+      "<b>Pain Point:</b> Subtitles could be larger, as the spoken audio is in a foreign language."
+    ]
+  },
+  {
     "title": "Greyhill Incident",
     "date": "2026-10-21",
     "playtime": "4h 18m",
@@ -21,7 +33,7 @@
       "<b>Mechanics:</b> Main ghost uses waypoint pathfinding; enemy detection relies on a cone-shaped vision field (raycasting); distinct audio cue plays when detected by the ghost.",
       "<b>Misc:</b> First-person model shows no body—just the left hand holding a flashlight; Small map design that prevents getting lost.",
       "<b>Objective Management:</b> Briefly displays the current goal at the top-center of the screen before fading out; Pressing Triangle opens a notebook.",
-      "<b>Pain Point:</b> Repetitive loop (stealth, obtain item); lack of a reticle."
+      "<b>Pain Point:</b> Repetitive loop (stealth, obtain item); lack of a reticle;"
     ]
   },
   {
