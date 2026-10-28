@@ -8,10 +8,10 @@
       "<b>Mechanics:</b> Hallway loops with environmental changes between passes; exit door opens after the loop-specific progression trigger is satisfied, often with an audio cue; no sprint; controller vibration during door collisions and Lisa-related sequences; flashlight beam follows camera movement; flashlight is acquired later rather than provided at the start.",
       "<b>Loop Behaviour:</b> Progress depends on loop-specific triggers; a closed exit door can indicate an incomplete action; some triggers require looking at an object or pressing X; Lisa's haunting can interrupt progression or lead to another loop.",
       "<b>Objective Management:</b> Explore the hallway and inspect environmental changes; infer required actions from visual and audio cues; objectives are rarely explained explicitly; some sequences involve focusing on objects or using the microphone.",
-      "<b>Controls:</b> R3 — zoom; left thumbstick — forward movement is faster than backward movement; fixed camera sensitivity.",
-      "<b>Audio:</b> No continuous background music; ambient sounds carry most of the atmosphere — rain; footsteps; creaking floorboards; swinging chandelier; banging doors; crying baby; Lisa sobbing or groaning; ominous music during selected sequences.",
-      "<b>Encounters: </b> First Lisa encounter — she closes the bathroom door; second encounter — Lisa appears standing in the hallway then disappears; the lights switch off and back on with cockroaches visible on the walls; third encounter — after the window falls, Lisa appears on the upper floor staring at the player before retreating out of sight.",
-      "<b>Misc:</b> No visible player body when looking down; bathroom door opens; cockroaches emerge from the bathroom.",
+      "<b>Controls:</b> R3 — zoom; left thumbstick — forward movement is faster than backward movement; fixed camera sensitivity; when moving, the player camera utilizes first-person head bob and lateral camera sway to simulate realistic human gait dynamics.",
+      "<b>Audio:</b> No continuous background music; ambient sounds carry most of the atmosphere such as rain, footsteps, swinging chandelier, banging door, crying baby, Lisa sobbing or groaning; ominous music during selected sequences; there is a specific beat when Lisa starts to groan or appear; utilizes a blend of 3D spatial audio and 2D stereo sound design.",
+      "<b>Encounters: </b> Lisa closes the bathroom door; Lisa appears standing in the hallway then disappears, the lights switch off and back on with cockroaches visible on the walls; After the window falls, Lisa appears on the upper floor staring at the player before retreating out of sight.",
+      "<b>Misc:</b> No visible player body when looking down; bathroom door opens, cockroaches emerge from the bathroom.",
       "<b>Pain Point:</b> R2 would be a more practical zoom input than R3 to avoid clicking the right thumbstick."
     ]
   },
