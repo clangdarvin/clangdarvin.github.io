@@ -1,5 +1,32 @@
 [
   {
+    "title": "P.T (Playable Teaser)",
+    "date": "2026-10-28",
+    "playtime": "2h 0m",
+    "bullets": [
+      "<b>UI:</b> No reticle; no main menu.",
+      "<b>Mechanics:</b> Hallway loops with environmental changes between passes; exit door opens after the loop-specific progression trigger is satisfied, often with an audio cue; no sprint; controller vibration during door collisions and Lisa-related sequences; flashlight beam follows camera movement; flashlight is acquired later rather than provided at the start.",
+      "<b>Loop Behaviour:</b> Progress depends on loop-specific triggers; a closed exit door can indicate an incomplete action; some triggers require looking at an object or pressing X; Lisa's haunting can interrupt progression or lead to another loop.",
+      "<b>Objective Management:</b> Explore the hallway and inspect environmental changes; infer required actions from visual and audio cues; objectives are rarely explained explicitly; some sequences involve focusing on objects or using the microphone.",
+      "<b>Controls:</b> R3 — zoom; left thumbstick — forward movement is faster than backward movement; fixed camera sensitivity.",
+      "<b>Audio:</b> No continuous background music; ambient sounds carry most of the atmosphere — rain; footsteps; creaking floorboards; swinging chandelier; banging doors; crying baby; Lisa sobbing or groaning; ominous music during selected sequences.",
+      "<b>Encounters: </b> First Lisa encounter — she closes the bathroom door; second encounter — Lisa appears standing in the hallway then disappears; the lights switch off and back on with cockroaches visible on the walls; third encounter — after the window falls, Lisa appears on the upper floor staring at the player before retreating out of sight.",
+      "<b>Misc:</b> No visible player body when looking down; bathroom door opens; cockroaches emerge from the bathroom.",
+      "<b>Pain Point:</b> R2 would be a more practical zoom input than R3 to avoid clicking the right thumbstick."
+    ]
+  },
+  {
+    "title": "Evil Inside",
+    "date": "2026-10-27",
+    "playtime": "0h 57m",
+    "bullets": [
+      "<b>UI:</b> Dynamic main menu.",
+      "<b>Mechanics:</b> Flashlight features an inner and outer cone, and cannot be turned off; heavily inspired by P.T. featuring a ghost girl, hallway layout, banging doors, a giant eye, and loops.",
+      "<b>Objective Management:</b> Interactable objects are highlighted to guide the player and progress the game.",
+      "<b>Pain Point:</b> Camera sensitivity is too high and cannot be adjusted."
+    ]
+  },
+  {
     "title": "BrokenLore: Don't Watch",
     "date": "2026-10-22",
     "playtime": "1h 17m",
